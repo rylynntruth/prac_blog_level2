@@ -13,4 +13,9 @@ public class IndexController {
     public String login_page() {
         return "login/login_main";
     }
+
+    @GetMapping("/signup")
+    public String login_signup() {
+        return "login/login_signup";
+    }
 }
